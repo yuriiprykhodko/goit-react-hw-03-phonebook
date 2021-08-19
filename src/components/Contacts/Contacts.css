@@ -1,0 +1,35 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.text {
+  display: block;
+  width: 120px;
+  margin: 0;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+span {
+  width: 100px;
+}
+.button {
+  height: 30px;
+  width: 70px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  background: tomato;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.button:hover {
+  background: tomato;
+}
+.button:active {
+  background: tomato;
+}
